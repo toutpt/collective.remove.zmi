@@ -1,9 +1,0 @@
-<configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:five="http://namespaces.zope.org/five"
-    i18n_domain="collective.remove.zmi">
-
-    <five:registerPackage package="." initialize=".initialize" />
-    <!-- -*- extra stuff goes here -*- -->
-
-</configure>

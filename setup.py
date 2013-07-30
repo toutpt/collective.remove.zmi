@@ -27,7 +27,7 @@ setup(
     keywords='plone',
     author='JeanMichel aka toutpt',
     author_email='toutpt@gmail.com',
-    url='http://svn.plone.org/svn/collective/',
+    url='https://github.com/toutpt/collective.remove.zmi',
     license='GPL',
     packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['collective', 'collective.remove'],
@@ -35,6 +35,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'setuptools',
+        'Zope2',
         # -*- Extra requirements: -*-
     ],
     extras_require=dict(
@@ -42,8 +43,6 @@ setup(
     ),
     entry_points="""
     # -*- Entry points: -*-
-    [z3c.autoinclude.plugin]
-    target = plone
     """,
     #setup_requires=["PasteScript"],
     #paster_plugins=["ZopeSkel"],
